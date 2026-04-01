@@ -1,8 +1,8 @@
-📗📗#Instalacion de Linux Ubuntu
+# 📗 Instalacion de Linux Ubuntu
 
-📘#### Descargar ISO y bootearlo en Rufus 
+###📘 Descargar ISO y bootearlo en Rufus 
 
-📗📗#Actualiza el Sistema de Linux en la Terminal
+# 📗 Actualiza el Sistema de Linux en la Terminal
 ##Terminal
 📜
 Sudo apt update 
@@ -13,13 +13,13 @@ Sudo apt upgrade -y
 */ Comando donde realmente instala y actualiza, Parámetro (-y) que da la consigna de aceptar las actualizaciones e instalaciones.
 🧧🧧🧧🧧🧧///// Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente./*//////
 
-📗📗#Solucionando Problemas de Arranque al esperar (GRUB)
+# 📗📗 Solucionando Problemas de Arranque al esperar (GRUB)
 
-📘### Configuracion para Arranque Automatico
+###📘 Configuracion para Arranque Automatico
 
-📗📗#Entraremos al Bash donde esta el script del Arranque y configuraremos
+#📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
-📕Bash:
+# 📕 Bash:
 📜
 sudo nano /etc/default/grub
 */ Buscaremos El TIMEOUT y configuraremos de 20 segundos que estaba a 1s
@@ -41,9 +41,9 @@ sudo reboot
 
 🧧🧧🧧🧧/////Solucionado el problema de arranque ahora hay otro problema lo que es ocultar el GRUB/////
 
-📗📗#Entraremos al Bash donde esta el script del Arranque y configuraremos
+#📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
-📕Bash:
+#📕 Bash:
 📜
 sudo nano /etc/default/grub
 */ escribiremos lo que es una linea mas para forzar el ocultar el Menu 
@@ -56,6 +56,6 @@ GRUB_DISABLE_OS_PROBER=true
 
 🎄🎄/////Solucionado el problema de arranque y ocultar el menu de GRUB de linux/////
 
-📒📒📒📒📒📒##### Apartir de Aca ya esta listo para que se ehaga laboratorios y navegar por todo linux #####
+### 📒📒📒📒📒📒 Apartir de Aca ya esta listo para que se ehaga laboratorios y navegar por todo linux 
 
 
