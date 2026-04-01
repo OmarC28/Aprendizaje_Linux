@@ -50,8 +50,7 @@ sudo nano /etc/default/grub
 GRUB_TIMEOUT=0
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DEFAULT=0
-GRUB_DISABLE_OS_PROBER=true
-*/ Es para que el menu se oculte forzadamente
+GRUB_DISABLE_OS_PROBER=true        */ Es para que el menu se oculte forzadamente
 
 🎄🎄/////Solucionado el problema de arranque y ocultar el menu de GRUB de linux/////
 
