@@ -8,13 +8,13 @@
 
 Sudo apt update 
 
-*/ Descarga paquetes de actualización buscando en servidores de software (Solo es una revisión si falta una versión más nueva)
+> Descarga paquetes de actualización buscando en servidores de software (Solo es una revisión si falta una versión más nueva)
 
 📜
 
 Sudo apt upgrade -y 
 
-*/ Comando donde realmente instala y actualiza, Parámetro (-y) que da la consigna de aceptar las actualizaciones e instalaciones.
+> Comando donde realmente instala y actualiza, Parámetro (-y) que da la consigna de aceptar las actualizaciones e instalaciones.
 
 ### 🧧🧧 Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente.
 
@@ -29,7 +29,7 @@ Sudo apt upgrade -y
 
 sudo nano /etc/default/grub
 
-*/ Buscaremos El TIMEOUT y configuraremos de 20 segundos que estaba a 1s
+> Buscaremos El TIMEOUT y configuraremos de 20 segundos que estaba a 1s
 
 📜
 
@@ -37,9 +37,9 @@ GRUB_TIMEOUT=1
 GRUB_TIMEOUT_STYLE=hidden      
 GRUB_DEFAULT=0
 
-*/ el hidden significa oculto hara que no se vea el menu 
+> el hidden significa oculto hara que no se vea el menu 
 
-*/ ahora ^o para guardar los cambios o ^x para salir y afuera pondremos
+> ahora ^o para guardar los cambios o ^x para salir y afuera pondremos
 
 📜
 
@@ -62,7 +62,7 @@ sudo reboot
 
 sudo nano /etc/default/grub
 
-*/ escribiremos lo que es una linea mas para forzar el ocultar el Menu 
+> escribiremos lo que es una linea mas para forzar el ocultar el Menu 
 
 📜
 
@@ -71,7 +71,7 @@ GRUB_TIMEOUT_STYLE=hidden
 GRUB_DEFAULT=0
 GRUB_DISABLE_OS_PROBER=true 
 
-*/ Es para que el menu se oculte forzadamente
+> Es para que el menu se oculte forzadamente
 
 ### 🎄Solucionado el problema de arranque y ocultar el menu de GRUB de linux
 
