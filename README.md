@@ -7,5 +7,5 @@ Bienvenidos al proceso de Aprendizaje en linux 🐧
 ## 📚 Secuencia de aprendizaje
 
 ### 📗 Paso 1: Actualizacion del Sistema
-📄[Ver Guia](SO-Linux-Ubuntu/Actualizacion-Linux.md)
+📄[Ver Guia de Instalacion y Actualizacion de Linux](SO-Linux-Ubuntu/Actualizacion-Linux.md)
 
