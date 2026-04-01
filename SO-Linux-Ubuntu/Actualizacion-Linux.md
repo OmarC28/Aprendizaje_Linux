@@ -3,12 +3,14 @@
 ###📘 Descargar ISO y bootearlo en Rufus 
 
 # 📗 Actualiza el Sistema de Linux en la Terminal
-##Terminal
+## Terminal
 📜
+
 Sudo apt update 
 */ Descarga paquetes de actualización buscando en servidores de software (Solo es una revisión si falta una versión más nueva)
 
 📜
+
 Sudo apt upgrade -y 
 */ Comando donde realmente instala y actualiza, Parámetro (-y) que da la consigna de aceptar las actualizaciones e instalaciones.
 🧧🧧🧧🧧🧧///// Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente./*//////
@@ -21,10 +23,12 @@ Sudo apt upgrade -y
 
 # 📕 Bash:
 📜
+
 sudo nano /etc/default/grub
 */ Buscaremos El TIMEOUT y configuraremos de 20 segundos que estaba a 1s
 
 📜
+
 GRUB_TIMEOUT=1
 GRUB_TIMEOUT_STYLE=hidden      
 GRUB_DEFAULT=0
@@ -32,10 +36,12 @@ GRUB_DEFAULT=0
 */ ahora ^o para guardar los cambios o ^x para salir y afuera pondremos
 
 📜
+
 sudo update-grub
 */ Hara que se actualice lo que hemos hecho 
 
 📜
+
 sudo reboot
 */ Para reniiciar la pc desde la terminal
 
@@ -45,9 +51,12 @@ sudo reboot
 
 #📕 Bash:
 📜
+
 sudo nano /etc/default/grub
 */ escribiremos lo que es una linea mas para forzar el ocultar el Menu 
+
 📜
+
 GRUB_TIMEOUT=0
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DEFAULT=0
