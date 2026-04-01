@@ -18,13 +18,13 @@ Sudo apt upgrade -y
 
 ### 🧧🧧 Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente.
 
-# 📗📗 Solucionando Problemas de Arranque al esperar (GRUB)
+# 📗 Solucionando Problemas de Arranque al esperar (GRUB)
 
 ### 📘 Configuracion para Arranque Automatico
 
 ### 📘 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
-# 📕 Bash:
+## 📕 Bash:
 📜
 
 sudo nano /etc/default/grub
@@ -57,7 +57,8 @@ sudo reboot
 
 ### 📘 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
-# 📕 Bash:
+## 📕 Bash:
+
 📜
 
 sudo nano /etc/default/grub
