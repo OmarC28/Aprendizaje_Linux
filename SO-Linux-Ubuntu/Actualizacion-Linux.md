@@ -45,13 +45,13 @@ GRUB_DEFAULT=0
 
 sudo update-grub
 
-*/ Hara que se actualice lo que hemos hecho 
+> Hara que se actualice lo que hemos hecho 
 
 📜
 
 sudo reboot
 
-*/ Para reniiciar la pc desde la terminal
+> Para reniiciar la pc desde la terminal
 
 ### 🧧🧧Solucionado el problema de arranque ahora hay otro problema lo que es ocultar el GRUB
 
