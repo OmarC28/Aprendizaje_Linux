@@ -22,7 +22,7 @@ Sudo apt upgrade -y
 
 ### 📘 Configuracion para Arranque Automatico
 
-# 📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
+### 📘 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
 # 📕 Bash:
 📜
