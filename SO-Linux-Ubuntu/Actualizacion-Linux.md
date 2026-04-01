@@ -1,19 +1,22 @@
 # 📗 Instalacion de Linux Ubuntu
 
-###📘 Descargar ISO y bootearlo en Rufus 
+### 📘 Descargar ISO y bootearlo en Rufus 
 
 # 📗 Actualiza el Sistema de Linux en la Terminal
 ## Terminal
 📜
 
 Sudo apt update 
+
 */ Descarga paquetes de actualización buscando en servidores de software (Solo es una revisión si falta una versión más nueva)
 
 📜
 
 Sudo apt upgrade -y 
+
 */ Comando donde realmente instala y actualiza, Parámetro (-y) que da la consigna de aceptar las actualizaciones e instalaciones.
-🧧🧧🧧🧧🧧///// Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente./*//////
+
+### 🧧🧧 Se actualizo e instalo correctamente los paquetes, pero ahora tengo otro problema cuando inicia no corre automaticamente.
 
 # 📗📗 Solucionando Problemas de Arranque al esperar (GRUB)
 
@@ -45,7 +48,7 @@ sudo update-grub
 sudo reboot
 */ Para reniiciar la pc desde la terminal
 
-🧧🧧🧧🧧/////Solucionado el problema de arranque ahora hay otro problema lo que es ocultar el GRUB/////
+### 🧧🧧Solucionado el problema de arranque ahora hay otro problema lo que es ocultar el GRUB
 
 # 📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
