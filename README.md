@@ -1,2 +1,9 @@
-# Aprendizaje_Linux
-Apuntes de Linux y Redes
+# 🧠 Ruta de Aprendizaje Linux
+
+Bienvenidos al proceso de Aprendizaje en linux 🐧
+
+---
+
+## 📚 Secuencia de aprendizaje
+
+### 📗 Paso 1: Actualizacion del Ssitema
