@@ -76,8 +76,8 @@ GRUB_DISABLE_OS_PROBER=true
 
 > Es para que el menu se oculte forzadamente
 
-### 🎄Solucionado el problema de arranque y ocultar el menu de GRUB de linux
+##### 🎄Solucionado el problema de arranque y ocultar el menu de GRUB de linux
 
-### 📒📒 Apartir de Aca ya esta listo para que se ehaga laboratorios y navegar por todo linux 
+##### 📒📒 Apartir de Aca ya esta listo para que se ehaga laboratorios y navegar por todo linux 
 
 
