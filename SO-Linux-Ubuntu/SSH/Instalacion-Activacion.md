@@ -25,5 +25,5 @@ sudo systemctl start ssh
 
 > Es para que active los paquetes del SSH si en caso no se pudo inicialmente
 
-#####🎄 Se soluciono el problema (END) y se activo correctamente el SSH *Active (running)*
+##### 🎄 Se soluciono el problema (END) y se activo correctamente el SSH *Active (running)*
 
