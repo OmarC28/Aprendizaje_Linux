@@ -8,4 +8,4 @@ Bienvenidos al proceso de Aprendizaje en linux 🐧
 
 ### 📗 Paso 1: Actualizacion del Sistema
 📄[Ver Guia de Instalacion y Actualizacion de Linux](SO-Linux-Ubuntu/Actualizacion-Linux.md)
-
+En la guia veras sobre todo como comandos de actualizacion de paquetes e instalacion, tambien posibles errores de arranque de sistema.
