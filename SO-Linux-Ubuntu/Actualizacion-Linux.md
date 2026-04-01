@@ -17,9 +17,9 @@ Sudo apt upgrade -y
 
 # 📗📗 Solucionando Problemas de Arranque al esperar (GRUB)
 
-###📘 Configuracion para Arranque Automatico
+### 📘 Configuracion para Arranque Automatico
 
-#📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
+# 📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
 # 📕 Bash:
 📜
@@ -47,9 +47,9 @@ sudo reboot
 
 🧧🧧🧧🧧/////Solucionado el problema de arranque ahora hay otro problema lo que es ocultar el GRUB/////
 
-#📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
+# 📗📗 Entraremos al Bash donde esta el script del Arranque y configuraremos
 
-#📕 Bash:
+# 📕 Bash:
 📜
 
 sudo nano /etc/default/grub
