@@ -2,9 +2,7 @@
 
 #### 📘 Esto apaga SSH hasta el Siguiente Reinicio de la PC.
 
-📜
-
-sudo systemctl stop ssh
+    sudo systemctl stop ssh
 
 > Este script detendra el servidor inmediatamente y nadie podra conectarse mientra este detenido.
 
@@ -12,9 +10,7 @@ sudo systemctl stop ssh
 
 #### 📘 Esto desacativa el SSH en arranque automatico al prender la PC.
 
-📜
-
-sudo systemctl disable ssh
+    sudo systemctl disable ssh
 
 > Este script hara que se descative el arranque automatico del servicio y para activarlo nesecitas poner un scrip de activacion en la terminal.
 
@@ -22,19 +18,13 @@ sudo systemctl disable ssh
 
 #### 📘 En cada caso tendras scripts para activarlos primero en orden si encaso de desactiva el SSH.
 
-📜
+    sudo systemctl enbale ssh
 
-sudo systemctl enbale ssh
-
-📜
-
-sudo systemctl start ssh
+    sudo systemctl start ssh
 
 #### 📘 Por ultimo verificas siempre el estatus que tiene el servicio de SSH.
 
-📜
-
-sudo systemctl status ssh
+    sudo systemctl status ssh
 
 > con todo estos scripts verificaras, activaras y desactivaras los servicios de SSH servidor de la pc donde se instalo.
 
