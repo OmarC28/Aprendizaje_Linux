@@ -3,7 +3,7 @@
 
 📜 
 
-Sudo apt install openssh-server -y
+    Sudo apt install openssh-server -y
 
 >  es para instalar paquetes de uso SSH a la maquina
 
@@ -11,7 +11,7 @@ Sudo apt install openssh-server -y
 
 📜 
 
-sudo systemctl status ssh
+    sudo systemctl status ssh
 
 >Verificamos Active (running)
 
@@ -19,9 +19,9 @@ sudo systemctl status ssh
 
 📜
 
-sudo systemctl enable ssh
+    sudo systemctl enable ssh
 
-sudo systemctl start ssh
+    sudo systemctl start ssh
 
 > Es para que active los paquetes del SSH si en caso no se pudo inicialmente
 
