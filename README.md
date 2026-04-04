@@ -26,7 +26,8 @@ En esta parte veras los comandos de detencion del servicio por un tiempo mas pro
 
 Aca tendras el paso a paso para que te puedas conectar desde otra pc (Cliente) al pc donde se instalo los servicios de ssh (Servidor)
 
-📄 [Guia de Creacion de Claves de SSH]()
+📄 [Guia de Creacion de Claves de SSH](SO-Linux-Ubuntu/SSH/Creaciones-de-Claves.md)
 
 Crearas claves privada y publica para que puedas conectarte al servidor sin poner la contraseña del servidor
+
 Incluye configuracion manual y traslado de llaves desde la pc cliente.
