@@ -18,8 +18,15 @@ En la guia veras sobre todo como comandos de actualizacion de paquetes e instala
 
 En la guia encontras los comandos para instalar los paquetes de servicio de servidor de conexion ssh y tambien configuracion para activarlo y desactivarlo.
 
-📄 [Guia de Detener Servicio]()
+📄 [Guia de Detener Servicio](SO-Linux-Ubuntu/SSH/Detener-servicio.md)
 
 En esta parte veras los comandos de detencion del servicio por un tiempo mas prolongado si es que se requiere.
 
-📄
+📄 [Guia de Conexion]()
+
+Aca tendras el paso a paso para que te puedas conectar desde otra pc (Cliente) al pc donde se instalo los servicios de ssh (Servidor)
+
+📄 [Guia de Creacion de Claves de SSH]()
+
+Crearas claves privada y publica para que puedas conectarte al servidor sin poner la contraseña del servidor
+Incluye configuracion manual y traslado de llaves desde la pc cliente.
