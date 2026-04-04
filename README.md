@@ -22,7 +22,7 @@ En la guia encontras los comandos para instalar los paquetes de servicio de serv
 
 En esta parte veras los comandos de detencion del servicio por un tiempo mas prolongado si es que se requiere.
 
-📄 [Guia de Conexion]()
+📄 [Guia de Conexion](SO-Linux-Ubuntu/SSH/Conexion.md)
 
 Aca tendras el paso a paso para que te puedas conectar desde otra pc (Cliente) al pc donde se instalo los servicios de ssh (Servidor)
 
