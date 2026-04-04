@@ -14,3 +14,4 @@ Incluye instalacion, configuracion y practicas reales.
 En la guia veras sobre todo como comandos de actualizacion de paquetes e instalacion, tambien posibles errores de arranque de sistema.
 
 ### 📗 Paso 2: Configuracion de SSH 
+📄 [Ver guia de Instalacion y Activacion]()
